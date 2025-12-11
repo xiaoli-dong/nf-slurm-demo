@@ -4,8 +4,8 @@
 #SBATCH --cpus-per-task=2      # Just for Nextflow main process
 #SBATCH --mem=4G               # Just for Nextflow main process
 #SBATCH --time=24:00:00
-#SBATCH -o logs/slurm-%j.out
-#SBATCH -e logs/slurm-%j.err
+#SBATCH -o slurm-%j.out
+#SBATCH -e slurm-%j.err
 
 # ---------------------------------------------------------------------
 
