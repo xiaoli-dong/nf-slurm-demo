@@ -1,0 +1,18 @@
+
+/// MultiQC 🔍 v1.32
+
+            config | Loading config settings from: multiqc_config.yml
+     version_check | MultiQC Version v1.33 now available!
+       file_search | Search path: /nfs/Genomics_DEV/projects/xdong/deve/nf-slurm-demo/test/work/e3/e366bd5fe050bfa8e84096eac1c00f
+
+    custom_content | xiaoli-dong-nf-slurm-demo-methods-description: Found 1 sample (html)
+    custom_content | xiaoli-dong-nf-slurm-demo-summary: Found 1 sample (html)
+            fastqc | Found 6 reports
+     write_results | Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag
+              plot | Unable to export plot to flat images: fastqc-status-check-heatmap
+
+
+     write_results | Data        : multiqc_data
+     write_results | Report      : multiqc_report.html
+     write_results | Plots       : multiqc_plots
+           multiqc | MultiQC complete

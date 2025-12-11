@@ -1,0 +1,17 @@
+.DS_Store
+test/work
+test/results
+test/.nextflow
+docs
+local_test/
+tests
+.nextflow/
+.nextflow*
+work/
+notes.txt
+.vscode/
+
+
+
+
+
